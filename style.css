@@ -1,0 +1,35 @@
+body{
+    font-family: 'Share Tech', sans-serif;
+background: #f3e5f5;
+    color:#000051;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;}
+
+h2{
+    text-transform: uppercase;
+    letter-spacing: : 3px;
+     
+    
+}
+
+h1.movimiento{
+    animation-name:temblor;
+    animation-duration: 0.3s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+span#lugar{
+    font-weight: 700;}
+
+div#mapid{
+    width:100%;
+        height: 400px;
+    margin-bottom: 20px;
+}
+
+@keyframes temblor {
+    from {letter-spacing: 0.03rem;}
+    to {margin-left:-0.5rem; letter-spacing: 0.4rem;}
+}
